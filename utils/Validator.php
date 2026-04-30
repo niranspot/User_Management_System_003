@@ -25,9 +25,9 @@ class Validator
         if (strlen($password) < 6) {
             return "Password is invalid (min 6 characters)";
         }
-        if (!preg_match('/[0-9]/', $password)) {
-            return "Password is invalid (must contain a number)";
+        if (preg_match('/[0-9]/', $password)) {
+            return "Password is valid";
         }
-        return "Password is valid";
+        return "Password is invalid (must contain a number)";
     }
 }

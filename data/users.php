@@ -3,18 +3,18 @@
 return [
     [
         'username' => 'niran',
-        'email'    => 'niran@gmail.com',
+        'email'    => 'niran.gmail.com',
         'password' => 'pass1234'
     ],
     [
         'username' => 'jo',
-        'email'    => 'jogmail.com',
-        'password' => 'johhhh'
+        'email'    => 'jooo@gmail.com',
+        'password' => 'johhhh9'
     ],
     [
         'username' => 'priya',
         'email'    => 'priya@gmail.com',
-        'password' => 'priya9999'
+        'password' => 'priya'
     ]
 ];
 
